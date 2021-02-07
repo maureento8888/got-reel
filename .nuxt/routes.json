@@ -1,0 +1,20 @@
+[
+  {
+    "name": "CardList",
+    "path": "/CardList",
+    "component": "/Users/maureento/Desktop/Coding/Projects/got-reel/pages/CardList.vue",
+    "chunkName": "pages/CardList"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "/Users/maureento/Desktop/Coding/Projects/got-reel/pages/index.vue",
+    "chunkName": "pages/index"
+  },
+  {
+    "name": "slug",
+    "path": "/:slug",
+    "component": "/Users/maureento/Desktop/Coding/Projects/got-reel/pages/_slug.vue",
+    "chunkName": "pages/_slug"
+  }
+]
