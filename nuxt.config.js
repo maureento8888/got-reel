@@ -5,7 +5,7 @@ export default {
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
   router: {
-    base: '/got-reel/github.io/'
+    base: '/got-reel/'
   },
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
