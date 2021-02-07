@@ -1,32 +1,32 @@
 {
   "BackArrow": {
-    "description": "Auto imported from components/BackArrow.vue"
+    "description": "Auto imported from /components/BackArrow.vue"
   },
   "LazyBackArrow": {
-    "description": "Auto imported from components/BackArrow.vue"
+    "description": "Auto imported from /components/BackArrow.vue"
   },
   "Card": {
-    "description": "Auto imported from components/Card.vue"
+    "description": "Auto imported from /components/Card.vue"
   },
   "LazyCard": {
-    "description": "Auto imported from components/Card.vue"
+    "description": "Auto imported from /components/Card.vue"
   },
   "Pagination": {
-    "description": "Auto imported from components/Pagination.vue"
+    "description": "Auto imported from /components/Pagination.vue"
   },
   "LazyPagination": {
-    "description": "Auto imported from components/Pagination.vue"
+    "description": "Auto imported from /components/Pagination.vue"
   },
   "ProfileCard": {
-    "description": "Auto imported from components/ProfileCard.vue"
+    "description": "Auto imported from /components/ProfileCard.vue"
   },
   "LazyProfileCard": {
-    "description": "Auto imported from components/ProfileCard.vue"
+    "description": "Auto imported from /components/ProfileCard.vue"
   },
   "SearchBar": {
-    "description": "Auto imported from components/SearchBar.vue"
+    "description": "Auto imported from /components/SearchBar.vue"
   },
   "LazySearchBar": {
-    "description": "Auto imported from components/SearchBar.vue"
+    "description": "Auto imported from /components/SearchBar.vue"
   }
 }
