@@ -3,12 +3,12 @@
 Hey! Thanks for visiting this project!
 
 Tech stack:
-- Nuxt.js (PWA)
-- axios
+- [Nuxt.js](https://nuxtjs.org/) (PWA)
+- [axios](https://axios.nuxtjs.org/)
 - HTML/CSS
-- Algolia
-- https://agify.io
-- https://anapioficeandfire-python.readthedocs.io/en/latest/getting_started.html
+- [Feather icons](https://feathericons.com/)
+- [Algolia](https://www.algolia.com/) (TBD)
+- [Agify.io](https://agify.io) (TBD)
 
 
 ## Build Setup
