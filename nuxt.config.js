@@ -8,6 +8,10 @@ export default {
     base: '/got-reel/'
   },
 
+  generate: {
+    fallback: '200.html'
+  },
+  
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
     title: 'Game of Thrones Character Reel',
