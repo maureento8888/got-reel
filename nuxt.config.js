@@ -4,9 +4,6 @@ export default {
 
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
-  // router: {
-  //   base: '/got-reel/'
-  // },
 
   generate: {
     fallback: '200.html'
