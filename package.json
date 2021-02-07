@@ -3,10 +3,10 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "dev": "npm run dev",
-    "build": "npm run build",
+    "dev": "nuxt",
+    "build": "nuxt build",
     "start": "nuxt start",
-    "generate": "npm run generate",
+    "generate": "nuxt generate",
     "test": "jest"
   },
   "dependencies": {
