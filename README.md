@@ -10,7 +10,6 @@ Tech stack:
 - [Netlify](https://www.netlify.com)
 - [Feather icons](https://feathericons.com/)
 - [Algolia](https://www.algolia.com/) (TBD)
-- [Agify.io](https://agify.io) (TBD)
 
 ## Build Setup
 
