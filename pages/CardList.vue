@@ -1,9 +1,10 @@
 <template>
-  <div class="row">
-    <div class="item">
+  <div class="row" role="list">
+    <div class="item" role="listitem">
       <Card v-for="(card, index) in cards" :key="index" :card="card" />
     </div>
-    <div class="item">
+    <!-- Repeat component for appearance purposes only -->
+    <div class="item" role="listitem">
       <Card v-for="(card, index) in cards" :key="index" :card="card" />
     </div>
   </div>
@@ -22,7 +23,6 @@ import ApiService from '@/services/ApiService.js';
         cards: null
       }
     },
-    computed: {}, // https://medium.com/swlh/filtering-sorting-and-searching-in-arrays-with-vue-js-f60951c040fc
     created() {
       ApiService.getCharacterNames()
         .then(response => {

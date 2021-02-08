@@ -1,7 +1,7 @@
 <template>
-	<div>
+	<div role="button">
 		<NuxtLink to="/">
-			<img class="arrow" :src="arrow" alt="" />
+			<img class="arrow" :src="arrow" alt="back to previous page" />
 		</NuxtLink>
 	</div>
 </template>

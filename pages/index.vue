@@ -1,32 +1,28 @@
 <template>
-	<div>
-        <div>
-            <header>
-                Made by
-                <a href="https://github.com/maureento8888" target="_blank" rel="noopener noreferrer">Maureen T'o</a>
-            </header>
-            <h1 class="centered cinzel-ff">Game of Thrones Character Reel</h1>
-            <!-- Insert SearchBar component -->
-            <SearchBar />
-            <!-- Insert CardList component -->
-            <CardList />
-            <!-- Insert Profile Card component -->
-            <ProfileCard />
-        </div>
-	</div>
+	<body>
+        <header>
+            Made by
+            <a href="https://github.com/maureento8888" target="_blank" rel="noopener noreferrer">Maureen T'o</a>
+        </header>
+        <h1 class="centered cinzel-ff">Game of Thrones Character Reel</h1>
+        <!-- Insert SearchBar component -->
+        <SearchBar />
+        <!-- Insert CardList page -->
+        <CardList />
+        <!-- Insert Profile Card component -->
+        <ProfileCard />
+	</body>
 </template>
 
 <script>
 import CardList from '@/pages/CardList.vue';
 import SearchBar from '@/components/SearchBar.vue';
-import Pagination from '@/components/Pagination.vue';
 import ProfileCard from '@/components/ProfileCard.vue';
 
 export default {
 	components: {
 		CardList,
 		SearchBar,
-		Pagination,
 		ProfileCard
 	}
 }

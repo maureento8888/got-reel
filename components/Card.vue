@@ -2,7 +2,6 @@
 	<div>
 		<div v-for="mountain in mountains" :key="mountain.id"> 
 			<div class="card">
-				<!-- <NuxtLink :to="img.slug"> -->
 				<img :src="mountain.image" :alt="mountain.title">
 				<div class="overlay">
 					<p class="age">AGE
@@ -10,9 +9,8 @@
 						<!-- prop {{ agify.age }} -->
 					</p>
 					<br>
-					<NuxtLink :to="mountain.slug" class="name">{{ card.name || card.aliases.toString() }}</NuxtLink>
+					<NuxtLink :to="mountain.slug" class="name">{{ card.name ? card.name : card.aliases.toString() }}</NuxtLink>
 				</div>
-				<!-- </NuxtLink> -->
 			</div>
 		</div>
 	</div>
