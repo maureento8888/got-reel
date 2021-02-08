@@ -1,15 +1,15 @@
 # Game of Thrones Character Reel
 
-Hey! Thanks for visiting this project!
+Hey! Thanks for visiting this project! I built this project to test my understanding of using and working with APIs, dynamic pages, and handling dynamic data.
 
 Tech stack:
+
 - [Nuxt.js](https://nuxtjs.org/) (PWA)
 - [axios](https://axios.nuxtjs.org/)
 - HTML/CSS
 - [Feather icons](https://feathericons.com/)
 - [Algolia](https://www.algolia.com/) (TBD)
 - [Agify.io](https://agify.io) (TBD)
-
 
 ## Build Setup
 
@@ -27,5 +27,3 @@ $ npm run start
 # generate static project
 $ npm run generate
 ```
-
-
