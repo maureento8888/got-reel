@@ -54,13 +54,17 @@ import dev from 'assets/icon-awesome-dev.svg';
 </script>
 
 <style scoped>
+button,
+.modal {
+	box-shadow: 0 4px 8px 0 rgba(169, 169, 169, 0.19), 0 6px 20px 0 rgba(169, 169, 169, 0.19);
+}
+
 button {
 	position: fixed;
 	right: 2em;
 	bottom: 2em;
-	width: 3em;
-	height: 3em;
-	/* padding: 0 0; */
+	width: 4em;
+	height: 4em;
 	z-index: 1;
 	cursor: pointer;
 
@@ -96,7 +100,6 @@ button {
 
 	background: var(--g-primary-white);
 	border-radius: 20px;
-	box-shadow: 0 4px 8px 0 rgba(169, 169, 169, 0.19), 0 6px 20px 0 rgba(169, 169, 169, 0.19);
 }
 
 .external-media {

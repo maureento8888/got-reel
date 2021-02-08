@@ -1,10 +1,10 @@
 <template>
   <div class="row">
     <div class="item">
-      <Card v-for="card in cards" :key="card.url" :card="card" />
+      <Card v-for="(card, index) in cards" :key="index" :card="card" />
     </div>
     <div class="item">
-      <Card v-for="card in cards" :key="card.url" :card="card" />
+      <Card v-for="(card, index) in cards" :key="index" :card="card" />
     </div>
   </div>
 </template>

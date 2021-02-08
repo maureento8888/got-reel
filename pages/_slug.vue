@@ -1,10 +1,10 @@
 <template>
     <div>
         <BackArrow />
-        <h1>{{ card }}</h1>
-        <img :src="mountain.image" :alt="mountain.title" />
-        <p>{{ card.gender }}</p>
-        <p>{{ card.allegiances }}</p>
+            <img :src="mountain.image" :alt="mountain.title" />
+            <h1>{{ cards.name || cards.aliases.toString() }}</h1>
+            <p>{{ cards.gender }}</p>
+            <p>{{ cards.allegiances || null }}</p>
         <!-- Insert Profile Card component -->
         <ProfileCard />
     </div>
@@ -26,7 +26,7 @@ import ProfileCard from '@/components/ProfileCard.vue';
         created() {
             ApiService.getCharacterNames()
                 .then(response => {
-                this.card = response.data
+                this.cards = response.data
                 })
                 .catch(error => {
                 console.log(error)
@@ -34,7 +34,7 @@ import ProfileCard from '@/components/ProfileCard.vue';
          },
         data() {
             return {
-                card: {}
+                cards: {}
             }
         },
         components: {

@@ -3,18 +3,21 @@
     "name": "CardList",
     "path": "/CardList",
     "component": "/Users/maureento/Desktop/Coding/Projects/got-reel/pages/CardList.vue",
-    "chunkName": "pages/CardList"
+    "chunkName": "pages/CardList",
+    "_name": "_1761b7cb"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/maureento/Desktop/Coding/Projects/got-reel/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_344de045"
   },
   {
     "name": "slug",
     "path": "/:slug",
     "component": "/Users/maureento/Desktop/Coding/Projects/got-reel/pages/_slug.vue",
-    "chunkName": "pages/_slug"
+    "chunkName": "pages/_slug",
+    "_name": "_32973efd"
   }
 ]
