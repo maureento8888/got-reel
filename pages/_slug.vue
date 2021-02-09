@@ -2,9 +2,9 @@
     <div>
         <BackArrow />
             <img :src="mountains.image" :alt="mountains.title" />
-            <h1>{{ cards.name || cards.aliases.toString() }}</h1>
+            <h1>{{ cards.name | cards.aliases.toString() }}</h1>
             <p>{{ cards.gender }}</p>
-            <p>{{ cards.allegiances || null }}</p>
+            <p>{{ cards.allegiances }}</p>
         <!-- Insert Profile Card component -->
         <ProfileCard />
     </div>
@@ -18,7 +18,8 @@ import ProfileCard from '@/components/ProfileCard.vue';
     export default {
         // GET mountain imgs from API (https://api.nuxtjs.dev/)
         async asyncData({ params, $axios }) {
-            const mountains = await $axios.$get(`https://api.nuxtjs.dev/mountains/${params.slug}`)
+            const api = "https://api.nuxtjs.dev/mountains/";
+            const mountains = await $axios.$get(`${api}${params.slug}`)
             return {
                 mountains
             }

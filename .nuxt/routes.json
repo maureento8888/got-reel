@@ -7,11 +7,11 @@
     "_name": "_1761b7cb"
   },
   {
-    "name": "Privacy",
-    "path": "/Privacy",
-    "component": "/Users/maureento/Desktop/Coding/Projects/got-reel/pages/Privacy.vue",
-    "chunkName": "pages/Privacy",
-    "_name": "_043d2d1b"
+    "name": "privacy",
+    "path": "/privacy",
+    "component": "/Users/maureento/Desktop/Coding/Projects/got-reel/pages/privacy.vue",
+    "chunkName": "pages/privacy",
+    "_name": "_be58f58a"
   },
   {
     "name": "index",

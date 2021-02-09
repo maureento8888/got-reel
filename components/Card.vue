@@ -18,9 +18,10 @@
 
 <script>
 	export default {
-	    // GET mountain imgs from API (https://api.nuxtjs.dev/)
+	    // GET mountain imgs from API
 		async fetch() {
-			this.mountains = await fetch('https://api.nuxtjs.dev/mountains')
+			const api = "https://api.nuxtjs.dev/mountains";
+			this.mountains = await fetch(api)
 			.then(res =>
 			res.json())
 		},

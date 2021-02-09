@@ -1,5 +1,5 @@
 <template>
-	<main clas="centered">
+	<main class="centered">
 		<h1>Game of Thrones Character Reel</h1>
 		<h3>Privacy</h3>
 		<p>This application is not a full, enterprise application so therefore, it does not use cookies or any other third-party services to collect user data</p>

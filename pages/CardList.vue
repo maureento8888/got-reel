@@ -1,5 +1,5 @@
 <template>
-  <div class="row" role="list">
+  <section class="row" role="list">
     <div class="item" role="listitem">
       <Card v-for="card in cards" :key="card.url" :card="card" />
     </div>
@@ -7,7 +7,7 @@
     <div class="item" role="listitem">
       <Card v-for="card in cards" :key="card.url" :card="card" />
     </div>
-  </div>
+  </section>
 </template>
 
 <script>

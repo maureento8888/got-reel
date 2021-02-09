@@ -5,9 +5,9 @@
 		<section class="col">
 			<NuxtLink to="/">Home page</NuxtLink>
 			<br>
-			<a href="#" target="_blank" rel="noopener noreferral">Visit me on Dribbble</a>
+			<a href="https://dribbble.com/maureen_to" target="_blank" rel="noopener noreferral">Visit me on Dribbble</a>
 			<a href="https://github.com/maureento8888" target="_blank" rel="noopener noreferral">Visit me on GitHub</a>
-			<a href="#" target="_blank" rel="noopener noreferral">Visit me on LinkedIn</a>
+			<a href="https://www.linkedin.com/in/maureento/" target="_blank" rel="noopener noreferral">Visit me on LinkedIn</a>
 			<a href="https://dev.to/maureento8888" target="_blank" rel="noopener noreferral">Visit me on dev.to</a>
 		</section>
 	</div>
