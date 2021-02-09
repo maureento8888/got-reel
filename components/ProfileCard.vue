@@ -1,7 +1,7 @@
 <template>
 	<div>
 		<button @click="toggleModal()">
-			<img :src="horizontalKebab" alt="Maureen's profile picture in small rounded frame" class="more" />
+			<img :src="horizontalKebab" alt="See more" class="more" />
 		</button>
 		<!-- Display if isOpen = true -->
 		<div v-show="isOpen" class="modal">
