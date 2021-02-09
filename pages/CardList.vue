@@ -1,11 +1,11 @@
 <template>
   <div class="row" role="list">
     <div class="item" role="listitem">
-      <Card v-for="(card, index) in cards" :key="index" :card="card" />
+      <Card v-for="card in cards" :key="card.url" :card="card" />
     </div>
     <!-- Repeat component for appearance purposes only -->
     <div class="item" role="listitem">
-      <Card v-for="(card, index) in cards" :key="index" :card="card" />
+      <Card v-for="card in cards" :key="card.url" :card="card" />
     </div>
   </div>
 </template>
