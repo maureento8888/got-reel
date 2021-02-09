@@ -6,7 +6,7 @@
     <footer class="centered">
       Built with
       <a href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">Nuxt.js</a>
-      <NuxtLink to="/pages/Privacy.vue" class="privacy">Privacy &amp; Accessibility</NuxtLink>
+      <NuxtLink to="/pages/privacy.vue" class="privacy">Privacy &amp; Accessibility</NuxtLink>
     </footer>
   </div>
 </template>
