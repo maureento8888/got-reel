@@ -3,10 +3,10 @@
     <div class="default-margin">
         <Nuxt keep-alive />
     </div>
-    <footer>
+    <footer class="centered">
       Built with
       <a href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">Nuxt.js</a>
-      <NuxtLink to="pages/privacy.vue" class="privacy">Privacy &amp; Accessibility</NuxtLink>
+      <NuxtLink to="~/pages/privacy.vue" class="privacy">Privacy &amp; Accessibility</NuxtLink>
     </footer>
   </div>
 </template>
@@ -52,9 +52,7 @@ body {
 
 /* Footer */
 footer {
-  display: flex;
-  justify-content: center;
-  padding: 1.875em 0 0 0;
+  padding: 1.875em 0;
   background: var(--g-primary-black);
 }
 

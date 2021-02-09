@@ -9,7 +9,7 @@
 						<!-- prop {{ agify.age }} -->
 					</p>
 					<br>
-					<NuxtLink :to="mountain.slug" class="name">{{ card.name ? card.name : card.aliases.toString() }}</NuxtLink>
+					<NuxtLink :to="mountain.slug" class="name">{{ card.name || card.aliases.toString() }}</NuxtLink>
 				</div>
 			</div>
 		</div>
