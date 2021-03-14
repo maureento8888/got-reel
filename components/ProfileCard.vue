@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<span>
 		<button @click="toggleModal()">
 			<img :src="horizontalKebab" alt="See more" class="more" />
 		</button>
@@ -24,7 +24,7 @@
 				</a>
 			</div>
 		</div>
-	</div>
+	</span>
 </template>
 
 <script>

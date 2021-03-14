@@ -11,6 +11,12 @@
   "LazyCard": {
     "description": "Auto imported from /components/Card.vue"
   },
+  "CreditBadge": {
+    "description": "Auto imported from /components/CreditBadge.vue"
+  },
+  "LazyCreditBadge": {
+    "description": "Auto imported from /components/CreditBadge.vue"
+  },
   "Pagination": {
     "description": "Auto imported from /components/Pagination.vue"
   },

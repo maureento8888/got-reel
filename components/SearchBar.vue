@@ -1,7 +1,7 @@
 <template>
 	<section>
 		<div class="centered" role="search">
-			<input class="search" type="search" enterkeyhint="go" placeholder="e.g. Khaleesi..." aria-placeholder="e.g. Khaleesi...">
+			<input class="search" type="search" enterkeyhint="search" placeholder="e.g. Khaleesi..." aria-placeholder="e.g. Khaleesi...">
 			<div class="filter">
 				<button @click="toggleModal()">
 					<img :src="options" alt="filter by age, name/ alias, or allegiance" />
@@ -68,6 +68,8 @@ body {
 
 		background: var(--g-primary-white);
 		border-radius: 100px;
+
+		cursor: pointer;
 	}
 
 	img {

@@ -6,3 +6,4 @@
 - <s>Decrease filter modal padding</s>
 - Add filtering
 - Fix CardList.vue for Desktop viewports
+- <s>Fix privacy page link</s>

@@ -1,9 +1,9 @@
 <template>
-	<div role="button">
+	<span role="button">
 		<NuxtLink to="/">
 			<img class="arrow" :src="arrow" alt="back to previous page" />
 		</NuxtLink>
-	</div>
+	</span>
 </template>
 
 <script>

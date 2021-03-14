@@ -1,20 +1,49 @@
 <template>
   <div>
     <div class="default-margin">
-        <Nuxt keep-alive />
+      <CreditBadge />
+      <Nuxt keep-alive />
+      <!-- Insert Profile Card component -->
+      <ProfileCard />
     </div>
     <footer class="centered">
-      Built with
-      <a href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">Nuxt.js</a>
-      <NuxtLink to="pages/privacy.vue" class="privacy">Privacy &amp; Accessibility</NuxtLink>
+      <p>Built with 
+        <a href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">Nuxt.js</a>
+        <NuxtLink to="/privacy" class="privacy">Privacy &amp; Accessibility</NuxtLink>
+      </p>
     </footer>
   </div>
 </template>
 
-<script></script>
+<script>
+import CreditBadge from '@/components/CreditBadge.vue';
+import ProfileCard from '@/components/ProfileCard.vue';
+
+export default {
+  components: {
+    CreditBadge,
+    ProfileCard
+  }
+}
+</script>
 
 <style>
 /* Global Styles */
+
+:root {
+  /* Mobile - Main styles */
+  --g-primary-black: #333333;
+  --g-primary-white: #ffffff;
+  --g-secondary-grey: #707070;
+  --g-border: #a0a0a0;
+  --g-bg: #f0f0f0;
+  --g-disabled: #bfbfbf;
+
+  --g-m-header-txt: 1.25em; /* 20px */
+  --g-m-body-txt: 0.9375em; /* 15px */
+  --g-m-secondary-txt: 1.375em; /* 22px */
+}
+
 html {
   font-family:
     'Source Sans Pro',
@@ -31,8 +60,7 @@ html {
   -webkit-text-size-adjust: 100%;
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
-  box-sizing: border-box;
-  line-height: 1.75em;
+  line-height: 1.5em;
 }
 
 *,
@@ -46,13 +74,19 @@ html {
     padding: 1.5em 1.5em;
 }
 
+.centered {
+    display: flex;
+    justify-content: center;
+}
+
 body {
-    background: var(--g-bg);
+  background: var(--g-bg);
 }
 
 /* Footer */
 footer {
   padding: 1.875em 0;
+  
   background: var(--g-primary-black);
 }
 
@@ -60,10 +94,6 @@ footer,
 footer a {
   color: var(--g-primary-white);
   font-size: var(--g-m-body-txt);
-}
-
-footer a {
-  margin-left: 5px;
 }
 
 .privacy {

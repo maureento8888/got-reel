@@ -1,5 +1,6 @@
 <template>
 	<div>
+		<!-- <pre>{{ mountains.image }}</pre> -->
 		<div v-for="mountain in mountains" :key="mountain.id" class="card">
 			<img :src="mountain.image" :alt="mountain.title">
 			<div class="overlay">
@@ -8,7 +9,7 @@
 					<!-- prop {{ agify.age }} -->
 				</p>
 				<br>
-			<NuxtLink :to="mountain.slug" class="name">{{ card.name || card.aliases.toString() }}</NuxtLink>
+			<p class="name">{{ card.name || card.aliases.toString() }}</p> <!-- NuxtLink :to="mountain.slug" -->
 			</div>
 		</div>
 	</div>
@@ -16,22 +17,25 @@
 
 <script>
 	export default {
-	    // GET mountain imgs from API
+
+		data() {
+			return {
+				mountains: []
+			}
+		},
+
+  		// GET mountain imgs from API
 		async fetch() {
 			const api = "https://api.nuxtjs.dev/mountains";
 			this.mountains = await fetch(api)
 			.then(res =>
 			res.json())
 		},
+
 		props: {
 			card: {
 				type: Object,
 				required: true
-			},
-		},
-		data() {
-			return {
-				mountains: []
 			}
 		}
 	}

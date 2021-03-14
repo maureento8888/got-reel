@@ -15,14 +15,17 @@ import Card from '@/components/Card.vue';
 import ApiService from '@/services/ApiService.js';
 
   export default {
-    components: {
-      Card
-    },
+
     data() {
       return {
         cards: null
       }
     },
+
+    components: {
+      Card
+    },
+
     created() {
       ApiService.getCharacterNames()
         .then(response => {
