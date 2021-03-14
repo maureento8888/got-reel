@@ -43,6 +43,5 @@ import ApiService from '@/services/ApiService.js';
     display: flex;
     justify-content: center;
     padding-top: 2em;
-    /* background: lightblue; */
   }
 </style>

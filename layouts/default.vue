@@ -3,7 +3,6 @@
     <div class="default-margin">
       <CreditBadge />
       <Nuxt keep-alive />
-      <!-- Insert Profile Card component -->
       <ProfileCard />
     </div>
     <footer class="centered">
@@ -85,6 +84,7 @@ body {
 
 /* Footer */
 footer {
+  margin-top: 12em;
   padding: 1.875em 0;
   
   background: var(--g-primary-black);
