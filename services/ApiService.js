@@ -13,5 +13,9 @@ const apiClient = axios.create({
 export default {
 	getCharacterNames() {
 		return apiClient.get('/characters')
-	}
+	},
+
+	// sortByAge() {},
+	// sortByName() {},
+	// sortByAllegiance() {}
 }

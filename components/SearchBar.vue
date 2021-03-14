@@ -7,9 +7,9 @@
 					<img :src="options" alt="filter by age, name/ alias, or allegiance" />
 				</button>
 				<div v-show="isOpen" class="modal">
-					<p role="link">Age <!-- @click="sortAge()" --></p>
-					<p role="link">Name / Alias <!-- @click="sortName()" --></p>
-					<p role="link">Allegiances <!-- @click="sortAllegiance()" --></p>
+					<p role="link">Age <!-- @click="sortByAge()" --></p>
+					<p role="link">Name / Alias <!-- @click="sortByName()" --></p>
+					<p role="link">Allegiances <!-- @click="sortByAllegiance()" --></p>
 				</div>
 			</div>
         </div>
