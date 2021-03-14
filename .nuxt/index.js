@@ -12,11 +12,11 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_211bff23 from 'nuxt_plugin_plugin_211bff23' // Source: ./components/plugin.js (mode: 'all')
-import nuxt_plugin_axios_f3fcf28e from 'nuxt_plugin_axios_f3fcf28e' // Source: ./axios.js (mode: 'all')
-import nuxt_plugin_workbox_e4e99cd6 from 'nuxt_plugin_workbox_e4e99cd6' // Source: ./workbox.js (mode: 'client')
-import nuxt_plugin_metaplugin_0e0fd8b0 from 'nuxt_plugin_metaplugin_0e0fd8b0' // Source: ./pwa/meta.plugin.js (mode: 'all')
-import nuxt_plugin_iconplugin_04c08dc8 from 'nuxt_plugin_iconplugin_04c08dc8' // Source: ./pwa/icon.plugin.js (mode: 'all')
+import nuxt_plugin_plugin_7ea92b03 from 'nuxt_plugin_plugin_7ea92b03' // Source: ./components/plugin.js (mode: 'all')
+import nuxt_plugin_axios_e7ecface from 'nuxt_plugin_axios_e7ecface' // Source: ./axios.js (mode: 'all')
+import nuxt_plugin_workbox_3183b575 from 'nuxt_plugin_workbox_3183b575' // Source: ./workbox.js (mode: 'client')
+import nuxt_plugin_metaplugin_34c290f0 from 'nuxt_plugin_metaplugin_34c290f0' // Source: ./pwa/meta.plugin.js (mode: 'all')
+import nuxt_plugin_iconplugin_2b734608 from 'nuxt_plugin_iconplugin_2b734608' // Source: ./pwa/icon.plugin.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -62,7 +62,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"title":"Game of Thrones Character Reel","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Find the Game of Thrones characters"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"}],"style":[],"script":[]},
+    head: {"title":"Game of Thrones Character Reel","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":"Find the Game of Thrones characters"},{"hid":"charset","charset":"utf-8"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"got-reel"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"got-reel"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"got-reel"},{"hid":"og:description","name":"og:description","property":"og:description","content":"Hey! Thanks for visiting this project! I built this project to test my understanding of using and working with APIs, Nuxt.js, dynamic pages, and handling dynamic data."}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"hid":"shortcut-icon","rel":"shortcut icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_64x64.5f6a36.png"},{"hid":"apple-touch-icon","rel":"apple-touch-icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_512x512.5f6a36.png","sizes":"512x512"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.5bfad12a.json","hid":"manifest"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
 
     router,
     nuxt: {
@@ -176,24 +176,24 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_211bff23 === 'function') {
-    await nuxt_plugin_plugin_211bff23(app.context, inject)
+  if (typeof nuxt_plugin_plugin_7ea92b03 === 'function') {
+    await nuxt_plugin_plugin_7ea92b03(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_f3fcf28e === 'function') {
-    await nuxt_plugin_axios_f3fcf28e(app.context, inject)
+  if (typeof nuxt_plugin_axios_e7ecface === 'function') {
+    await nuxt_plugin_axios_e7ecface(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_workbox_e4e99cd6 === 'function') {
-    await nuxt_plugin_workbox_e4e99cd6(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_3183b575 === 'function') {
+    await nuxt_plugin_workbox_3183b575(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_metaplugin_0e0fd8b0 === 'function') {
-    await nuxt_plugin_metaplugin_0e0fd8b0(app.context, inject)
+  if (typeof nuxt_plugin_metaplugin_34c290f0 === 'function') {
+    await nuxt_plugin_metaplugin_34c290f0(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_iconplugin_04c08dc8 === 'function') {
-    await nuxt_plugin_iconplugin_04c08dc8(app.context, inject)
+  if (typeof nuxt_plugin_iconplugin_2b734608 === 'function') {
+    await nuxt_plugin_iconplugin_2b734608(app.context, inject)
   }
 
   // Lock enablePreview in context

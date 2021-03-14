@@ -79,7 +79,7 @@ body {
 		display: flex;
 		flex-direction: column;
 		justify-content: space-evenly;
-		padding-top: 1.5em;
+		padding-top: 0.75em;
 	}
 
 	.filter {
@@ -90,7 +90,7 @@ body {
 
 	.modal {
 		position: absolute;
-		top: 5em;
+		top: 4em;
 		right: -1em;
 		padding: 2em 1.5em;
 		width: 10em;

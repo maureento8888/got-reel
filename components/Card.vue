@@ -1,16 +1,14 @@
 <template>
 	<div>
-		<div v-for="mountain in mountains" :key="mountain.id"> 
-			<div class="card">
-				<img :src="mountain.image" :alt="mountain.title">
-				<div class="overlay">
-					<p class="age">AGE
-						<span>---</span>
-						<!-- prop {{ agify.age }} -->
-					</p>
-					<br>
-					<NuxtLink :to="mountain.slug" class="name">{{ card.name || card.aliases.toString() }}</NuxtLink>
-				</div>
+		<div v-for="mountain in mountains" :key="mountain.id" class="card">
+			<img :src="mountain.image" :alt="mountain.title">
+			<div class="overlay">
+				<p class="age">AGE
+					<span>---</span>
+					<!-- prop {{ agify.age }} -->
+				</p>
+				<br>
+			<NuxtLink :to="mountain.slug" class="name">{{ card.name || card.aliases.toString() }}</NuxtLink>
 			</div>
 		</div>
 	</div>
@@ -94,9 +92,9 @@ img {
 /*  */
 
 /* Galaxy Fold media query */
-@media screen and (max-width: 280px) {
+/* @media screen and (max-width: 280px) {
 	img {
 		height: 14em;
 	}
-}
+} */
 </style>

@@ -4,10 +4,10 @@ import { normalizeURL, decode } from '@nuxt/ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _1761b7cb = () => interopDefault(import('../pages/CardList.vue' /* webpackChunkName: "pages/CardList" */))
-const _be58f58a = () => interopDefault(import('../pages/privacy.vue' /* webpackChunkName: "pages/privacy" */))
-const _344de045 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
-const _32973efd = () => interopDefault(import('../pages/_slug.vue' /* webpackChunkName: "pages/_slug" */))
+const _c16e78aa = () => interopDefault(import('../pages/CardList.vue' /* webpackChunkName: "pages/CardList" */))
+const _7beb7d5b = () => interopDefault(import('../pages/privacy.vue' /* webpackChunkName: "pages/privacy" */))
+const _21753f36 = () => interopDefault(import('../pages/index.vue' /* webpackChunkName: "pages/index" */))
+const _24e281c6 = () => interopDefault(import('../pages/_slug.vue' /* webpackChunkName: "pages/_slug" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -27,19 +27,19 @@ export const routerOptions = {
 
   routes: [{
     path: "/CardList",
-    component: _1761b7cb,
+    component: _c16e78aa,
     name: "CardList"
   }, {
     path: "/privacy",
-    component: _be58f58a,
+    component: _7beb7d5b,
     name: "privacy"
   }, {
     path: "/",
-    component: _344de045,
+    component: _21753f36,
     name: "index"
   }, {
     path: "/:slug",
-    component: _32973efd,
+    component: _24e281c6,
     name: "slug"
   }],
 
