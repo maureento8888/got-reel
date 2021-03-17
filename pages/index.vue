@@ -32,10 +32,6 @@ export default {
     text-align: center;
 }
 
-body {
-    
-}
-
 /* Main */
 h1 {
     padding-bottom: 1.5em;

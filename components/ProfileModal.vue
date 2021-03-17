@@ -1,9 +1,9 @@
 <template>
-	<span>
+	<div>
 		<button @click="toggleModal()">
 			<img :src="horizontalKebab" alt="See more" class="more" />
 		</button>
-		<!-- Display if isOpen = true -->
+		
 		<div v-show="isOpen" class="modal">
 			<p>Hi! I'm the developer of this project.</p>
 			<p>View the repo on <a href="https://github.com/maureento8888" target="_blank" rel="noopener noreferral">GitHub</a>
@@ -24,7 +24,7 @@
 				</a>
 			</div>
 		</div>
-	</span>
+	</div>
 </template>
 
 <script>
@@ -79,14 +79,17 @@ button {
 }
 
 /* Fit icons */
+.icon,
+.more {
+	height: auto;
+}
+
 .icon {
 	width: 100%;
-	height: auto;
 }
 
 .more {
 	width: 2em;
-	height: auto;
 }
 /*  */
 

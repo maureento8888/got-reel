@@ -1,18 +1,16 @@
 <template>
-	<section>
-		<div class="centered" role="search">
-			<input class="search" type="search" enterkeyhint="search" placeholder="e.g. Khaleesi..." aria-placeholder="e.g. Khaleesi...">
-			<div class="filter">
-				<button @click="toggleModal()">
-					<img :src="options" alt="filter by age, name/ alias, or allegiance" />
-				</button>
-				<div v-show="isOpen" class="modal">
-					<p role="link">Age <!-- @click="sortByAge()" --></p>
-					<p role="link">Name / Alias <!-- @click="sortByName()" --></p>
-					<p role="link">Allegiances <!-- @click="sortByAllegiance()" --></p>
-				</div>
+	<section class="centered" role="search">
+		<input class="search" type="search" enterkeyhint="search" placeholder="e.g. Khaleesi..." aria-placeholder="e.g. Khaleesi...">
+		<div class="filter">
+			<button @click="toggleModal()">
+				<img :src="options" alt="filter by age, name/ alias, or allegiance" />
+			</button>
+			<div v-show="isOpen" class="modal">
+				<p role="link">Age <!-- @click="sortByAge()" --></p>
+				<p role="link">Name / Alias <!-- @click="sortByName()" --></p>
+				<p role="link">Allegiances <!-- @click="sortByAllegiance()" --></p>
 			</div>
-        </div>
+		</div>
 	</section>
 </template>
 

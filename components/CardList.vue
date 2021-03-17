@@ -39,16 +39,16 @@ import ApiService from '@/services/ApiService.js';
   <style scoped>
   section {
     display: flex;
-    /* justify-content: center; */
-    flex-wrap: wrap;
+    justify-content: center;
     padding-top: 2em;
   }
 
   /* Desktop viewports */
   @media screen and (min-width: 280px) {
     section {
-      max-width: 928px;
+      flex-wrap: wrap;
       margin: 0 auto;
+      max-width: 928px;
     }
   }
 </style>

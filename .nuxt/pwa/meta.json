@@ -23,7 +23,7 @@
     {
       "hid": "description",
       "name": "description",
-      "content": "Hey! Thanks for visiting this project! I built this project to test my understanding of using and working with APIs, Nuxt.js, dynamic pages, and handling dynamic data."
+      "content": "I built this project to test my understanding of using and working with APIs, Nuxt.js, pagination, component-naming conventions, and handling dynamic data."
     },
     {
       "hid": "og:type",
@@ -47,7 +47,7 @@
       "hid": "og:description",
       "name": "og:description",
       "property": "og:description",
-      "content": "Hey! Thanks for visiting this project! I built this project to test my understanding of using and working with APIs, Nuxt.js, dynamic pages, and handling dynamic data."
+      "content": "I built this project to test my understanding of using and working with APIs, Nuxt.js, pagination, component-naming conventions, and handling dynamic data."
     }
   ],
   "link": [
@@ -64,7 +64,7 @@
     },
     {
       "rel": "manifest",
-      "href": "/_nuxt/manifest.5bfad12a.json",
+      "href": "/_nuxt/manifest.467cc8cf.json",
       "hid": "manifest"
     }
   ],

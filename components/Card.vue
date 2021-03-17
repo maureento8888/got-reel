@@ -1,20 +1,17 @@
 <template>
-	<div>
-		<div class="card">
-			<img :src="img" alt="">
-			<div class="card-overlay">
-				<p class="card-name">{{ name.name || name.aliases.toString() }}</p>
-			</div>
+	<div class="card">
+		<img :src="img" alt="">
+		<div class="card-overlay">
+			<p class="card-name">{{ name.name || name.aliases.toString() }}</p>
 		</div>
 	</div>
 </template>
 
 <script>
 	export default {
-		
 		data() {
 			return {
-				img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wonder_Lake_and_Denali.jpg/600px-Wonder_Lake_and_Denali.jpg"
+				img: "https://res.cloudinary.com/maureen-cloudinary/image/upload/v1615941338/Wonder_Lake_and_Denali_upuktb.jpg" // "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wonder_Lake_and_Denali.jpg/600px-Wonder_Lake_and_Denali.jpg"
 			}
 		},
 
@@ -37,7 +34,7 @@ img,
 .card {
 	position: relative;
 	margin: 1em 0.5em;
-	max-width: 10em;
+	max-width: 9em;
 }
 
 .card:hover {
@@ -63,6 +60,7 @@ img {
 	right: 0;
 	bottom: 0;
 	left: 0;
+
 	padding: 6em 1em;
 
 	background: rgba(0, 0, 0, 0.5);

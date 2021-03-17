@@ -7,7 +7,7 @@
     </div>
     <footer class="centered">
       <p>Built with 
-        <a href="https://nuxtjs.org" target="_blank" rel="noopener noreferrer">Nuxt.js</a>
+        <a href="https://nuxtjs.org" target="_blank" rel="noopener noreferral">Nuxt.js</a>
         <NuxtLink to="/privacy" class="privacy">Privacy &amp; Accessibility</NuxtLink>
       </p>
     </footer>
