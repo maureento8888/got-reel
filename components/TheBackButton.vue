@@ -1,7 +1,11 @@
 <template>
 	<span role="button">
 		<NuxtLink to="/">
-			<img class="arrow" :src="arrow" alt="back to previous page" />
+			<img
+				class="arrow-icon"
+				:src="arrow"
+				alt="back to previous page"
+			/>
 		</NuxtLink>
 	</span>
 </template>
@@ -19,7 +23,7 @@ export default {
 </script>
 
 <style scoped>
-.arrow {
+.arrow-icon {
 	width: 1.5em;
 	height: auto;
 }

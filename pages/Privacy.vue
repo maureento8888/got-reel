@@ -1,6 +1,6 @@
 <template>
 	<main>
-		<BackButton />
+		<TheBackButton />
 		<h1 class="centered">Game of Thrones Character Reel</h1>
 		<h3>Privacy</h3>
 		<p>This application does not use cookies or any other third-party services to collect user data. <a href="https://www.cookiesandyou.com" target="_blank" rel="noopener noreferral">What are cookies?</a></p>
@@ -13,21 +13,21 @@
 </template>
 
 <script>
-import BackButton from '@/components/BackButton.vue';
+import TheBackButton from '@/components/TheBackButton.vue';
 
 export default {
   components: {
-	  BackButton
-  },	
+	  TheBackButton
+  }
 }
 </script>
 
 <style scoped>
-	h3 {
-		padding-bottom: 0.5em;
-	}
+h3 {
+	padding-bottom: 0.5em;
+}
 
-	p {
-		padding-bottom: 2em;
-	}
+p {
+	padding-bottom: 2em;
+}
 </style>

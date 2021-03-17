@@ -2,7 +2,7 @@
 
 - <s>Fix repeating NuxtLink on Cards.vue</s>
 - Add pagination (page parameters - see apioficeandfire)
-- Establish Vue component-naming conventions
+- <s>Establish Vue styleguide conventions</s>
 - Clean up CSS
 - <s>Decrease filter modal padding</s>
 - Add filtering

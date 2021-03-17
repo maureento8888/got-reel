@@ -1,27 +1,36 @@
 <template>
   <div>
     <div class="default-margin">
-      <ProfileBadge />
+      <TheProfileBadge />
       <Nuxt keep-alive />
-      <ProfileModal />
+      <TheProfileBadgeModal />
     </div>
-    <footer class="centered">
+    <footer class="centered footer">
       <p>Built with 
-        <a href="https://nuxtjs.org" target="_blank" rel="noopener noreferral">Nuxt.js</a>
-        <NuxtLink to="/privacy" class="privacy">Privacy &amp; Accessibility</NuxtLink>
+        <a
+          href="https://nuxtjs.org"
+          target="_blank"
+          rel="noopener noreferral">
+          Nuxt.js
+        </a>
+        <NuxtLink
+          to="/privacy"
+          class="privacy">
+          Privacy &amp; Accessibility
+        </NuxtLink>
       </p>
     </footer>
   </div>
 </template>
 
 <script>
-import ProfileBadge from '@/components/ProfileBadge.vue';
-import ProfileModal from '@/components/ProfileModal.vue';
+import TheProfileBadge from '@/components/TheProfileBadge.vue';
+import TheProfileBadgeModal from '@/components/TheProfileBadgeModal.vue';
 
 export default {
   components: {
-    ProfileBadge,
-    ProfileModal
+    TheProfileBadge,
+    TheProfileBadgeModal
   }
 }
 </script>
@@ -83,15 +92,15 @@ body {
 }
 
 /* Footer */
-footer {
+.footer {
   margin-top: 12em;
   padding: 1.875em 0;
   
   background: var(--g-primary-black);
 }
 
-footer,
-footer a {
+.footer,
+.footer a {
   color: var(--g-primary-white);
   font-size: var(--g-body-txt);
 }

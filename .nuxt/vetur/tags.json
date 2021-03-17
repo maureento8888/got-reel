@@ -1,44 +1,44 @@
 {
-  "BackButton": {
-    "description": "Auto imported from /components/BackButton.vue"
+  "CharacterCard": {
+    "description": "Auto imported from /components/CharacterCard.vue"
   },
-  "LazyBackButton": {
-    "description": "Auto imported from /components/BackButton.vue"
+  "LazyCharacterCard": {
+    "description": "Auto imported from /components/CharacterCard.vue"
   },
-  "Card": {
-    "description": "Auto imported from /components/Card.vue"
+  "CharacterCardList": {
+    "description": "Auto imported from /components/CharacterCardList.vue"
   },
-  "LazyCard": {
-    "description": "Auto imported from /components/Card.vue"
+  "LazyCharacterCardList": {
+    "description": "Auto imported from /components/CharacterCardList.vue"
   },
-  "CardList": {
-    "description": "Auto imported from /components/CardList.vue"
+  "TheBackButton": {
+    "description": "Auto imported from /components/TheBackButton.vue"
   },
-  "LazyCardList": {
-    "description": "Auto imported from /components/CardList.vue"
+  "LazyTheBackButton": {
+    "description": "Auto imported from /components/TheBackButton.vue"
   },
-  "Pagination": {
-    "description": "Auto imported from /components/Pagination.vue"
+  "ThePagination": {
+    "description": "Auto imported from /components/ThePagination.vue"
   },
-  "LazyPagination": {
-    "description": "Auto imported from /components/Pagination.vue"
+  "LazyThePagination": {
+    "description": "Auto imported from /components/ThePagination.vue"
   },
-  "ProfileBadge": {
-    "description": "Auto imported from /components/ProfileBadge.vue"
+  "TheProfileBadge": {
+    "description": "Auto imported from /components/TheProfileBadge.vue"
   },
-  "LazyProfileBadge": {
-    "description": "Auto imported from /components/ProfileBadge.vue"
+  "LazyTheProfileBadge": {
+    "description": "Auto imported from /components/TheProfileBadge.vue"
   },
-  "ProfileModal": {
-    "description": "Auto imported from /components/ProfileModal.vue"
+  "TheProfileBadgeModal": {
+    "description": "Auto imported from /components/TheProfileBadgeModal.vue"
   },
-  "LazyProfileModal": {
-    "description": "Auto imported from /components/ProfileModal.vue"
+  "LazyTheProfileBadgeModal": {
+    "description": "Auto imported from /components/TheProfileBadgeModal.vue"
   },
-  "SearchBar": {
-    "description": "Auto imported from /components/SearchBar.vue"
+  "TheSearchBar": {
+    "description": "Auto imported from /components/TheSearchBar.vue"
   },
-  "LazySearchBar": {
-    "description": "Auto imported from /components/SearchBar.vue"
+  "LazyTheSearchBar": {
+    "description": "Auto imported from /components/TheSearchBar.vue"
   }
 }

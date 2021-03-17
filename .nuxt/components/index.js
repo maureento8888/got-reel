@@ -1,15 +1,15 @@
-export { default as BackButton } from '../../components/BackButton.vue'
-export { default as Card } from '../../components/Card.vue'
-export { default as CardList } from '../../components/CardList.vue'
-export { default as Pagination } from '../../components/Pagination.vue'
-export { default as ProfileBadge } from '../../components/ProfileBadge.vue'
-export { default as ProfileModal } from '../../components/ProfileModal.vue'
-export { default as SearchBar } from '../../components/SearchBar.vue'
+export { default as CharacterCard } from '../../components/CharacterCard.vue'
+export { default as CharacterCardList } from '../../components/CharacterCardList.vue'
+export { default as TheBackButton } from '../../components/TheBackButton.vue'
+export { default as ThePagination } from '../../components/ThePagination.vue'
+export { default as TheProfileBadge } from '../../components/TheProfileBadge.vue'
+export { default as TheProfileBadgeModal } from '../../components/TheProfileBadgeModal.vue'
+export { default as TheSearchBar } from '../../components/TheSearchBar.vue'
 
-export const LazyBackButton = import('../../components/BackButton.vue' /* webpackChunkName: "components/back-button" */).then(c => c.default || c)
-export const LazyCard = import('../../components/Card.vue' /* webpackChunkName: "components/card" */).then(c => c.default || c)
-export const LazyCardList = import('../../components/CardList.vue' /* webpackChunkName: "components/card-list" */).then(c => c.default || c)
-export const LazyPagination = import('../../components/Pagination.vue' /* webpackChunkName: "components/pagination" */).then(c => c.default || c)
-export const LazyProfileBadge = import('../../components/ProfileBadge.vue' /* webpackChunkName: "components/profile-badge" */).then(c => c.default || c)
-export const LazyProfileModal = import('../../components/ProfileModal.vue' /* webpackChunkName: "components/profile-modal" */).then(c => c.default || c)
-export const LazySearchBar = import('../../components/SearchBar.vue' /* webpackChunkName: "components/search-bar" */).then(c => c.default || c)
+export const LazyCharacterCard = import('../../components/CharacterCard.vue' /* webpackChunkName: "components/character-card" */).then(c => c.default || c)
+export const LazyCharacterCardList = import('../../components/CharacterCardList.vue' /* webpackChunkName: "components/character-card-list" */).then(c => c.default || c)
+export const LazyTheBackButton = import('../../components/TheBackButton.vue' /* webpackChunkName: "components/the-back-button" */).then(c => c.default || c)
+export const LazyThePagination = import('../../components/ThePagination.vue' /* webpackChunkName: "components/the-pagination" */).then(c => c.default || c)
+export const LazyTheProfileBadge = import('../../components/TheProfileBadge.vue' /* webpackChunkName: "components/the-profile-badge" */).then(c => c.default || c)
+export const LazyTheProfileBadgeModal = import('../../components/TheProfileBadgeModal.vue' /* webpackChunkName: "components/the-profile-badge-modal" */).then(c => c.default || c)
+export const LazyTheSearchBar = import('../../components/TheSearchBar.vue' /* webpackChunkName: "components/the-search-bar" */).then(c => c.default || c)

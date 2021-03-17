@@ -2,24 +2,24 @@
 	<body>
         <h1 class="centered cinzel-ff">Game of Thrones Character Reel</h1>
         <!-- Insert SearchBar component -->
-        <SearchBar />
+        <TheSearchBar />
         <!-- Insert CardList component -->
-        <CardList />
+        <CharacterCardList />
         <!-- Insert Pagination component-->
-        <Pagination />
+        <ThePagination />
 	</body>
 </template>
 
 <script>
-import CardList from '@/components/CardList.vue';
-import SearchBar from '@/components/SearchBar.vue';
-import Pagination from '@/components/Pagination.vue';
+import CharacterCardList from '@/components/CharacterCardList.vue';
+import TheSearchBar from '@/components/TheSearchBar.vue';
+import ThePagination from '@/components/ThePagination.vue';
 
 export default {
 	components: {
-		CardList,
-		SearchBar,
-        Pagination
+		CharacterCardList,
+		TheSearchBar,
+        ThePagination
 	}
 }
 </script>
@@ -32,7 +32,6 @@ export default {
     text-align: center;
 }
 
-/* Main */
 h1 {
     padding-bottom: 1.5em;
 

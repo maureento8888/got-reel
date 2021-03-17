@@ -15,7 +15,14 @@ export default {
 		return apiClient.get('/characters')
 	},
 
-	// sortByAge() {},
-	// sortByName() {},
-	// sortByAllegiance() {}
+	filterCharacterNames(names) {
+		if (!names) {
+			return []
+		}
+		return names.filter((name) => name.name.includes(name))
+	}
+
+	// sortByAges() {},
+	// sortByNames() {},
+	// sortByAllegiances() {}
 }

@@ -1,6 +1,6 @@
 <template>
 	<div class="card">
-		<img :src="img" alt="">
+		<img class="card-image" :src="img" alt="">
 		<div class="card-overlay">
 			<p class="card-name">{{ name.name || name.aliases.toString() }}</p>
 		</div>
@@ -8,32 +8,31 @@
 </template>
 
 <script>
-	export default {
-		data() {
-			return {
-				img: "https://res.cloudinary.com/maureen-cloudinary/image/upload/v1615941338/Wonder_Lake_and_Denali_upuktb.jpg" // "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wonder_Lake_and_Denali.jpg/600px-Wonder_Lake_and_Denali.jpg"
-			}
-		},
-
-		props: {
-			name: {
-				type: Object,
-				required: true
-			}
+export default {
+	props: {
+		name: {
+			type: Object,
+			required: true
+		}
+	},
+	data() {
+		return {
+			img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wonder_Lake_and_Denali.jpg/600px-Wonder_Lake_and_Denali.jpg" // "https://res.cloudinary.com/maureen-cloudinary/image/upload/v1615941338/Wonder_Lake_and_Denali_upuktb.jpg"
 		}
 	}
+}
 </script>
 
 <style scoped>
 .card,
-img,
+.card-image,
 .card-overlay {
 	border-radius: 15px;
 }
 
 .card {
 	position: relative;
-	margin: 1em 0.5em;
+	margin: 0.5em 0.5em;
 	max-width: 9em;
 }
 
@@ -42,12 +41,12 @@ img,
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
-img,
+.card-image,
 .card-overlay {
 	width: 100%;
 }
 
-img {
+.card-image {
 	display: block;
 	height: 12em;
 	
