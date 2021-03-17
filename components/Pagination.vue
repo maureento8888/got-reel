@@ -1,32 +1,44 @@
 <template>
-	<div class="centered margin">
+	<div class="centered align-items">
 		<span>
-			<button class="page-link" @click="goBack">U+003C</button>
+			<button class="page-link" @click="goBack()">p</button>
 		</span>
-		<span>page num ratio</span>
+		<span>{{ pageOutOfPage }}</span>
 		<span>
-			<button class="page-link" @click="goForw">U+00EC</button>
+			<button class="page-link" @click="goForward()">f</button>
 		</span>
 	</div>
 </template>
 
 <script>
 	export default {
+		data() {
+			return {
+				pageOutOfPage: "1 / 25"
+			}
+
+		},
+
 		methods: {
 			goBack() {
-				return this.$router.go(-1);
+				console.log("Back to previous page");
 			},
-			goForw() {
-				return this.$router.go(1);
+			goForward() {
+				console.log("Forward to next page");
 			}
 		}
 	}
 </script>
 
 <style scoped>
+.align-items {
+	align-items: center;
+}
+
 button {
-	margin: 0 1em;
-	padding: 1em 1em;
+	margin: 3em 2em;
+	height: 44px;
+	width: 44px;
 
 	border-radius: 100px;
 }
@@ -38,10 +50,5 @@ button {
 	border-style: none;
 	border-radius: 100%;
 	cursor: pointer;
-}
-
-.margin {
-	padding: 2em 0 2em 0;
-	visibility: hidden;
 }
 </style>

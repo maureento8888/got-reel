@@ -28,8 +28,8 @@
 </template>
 
 <script>
-import horizontalKebab from '~/assets/icon-feather-more-horizontal.svg';
-import github from '~/assets/icon-awesome-github.svg';
+import horizontalKebab from 'assets/icon-feather-more-horizontal.svg';
+import github from 'assets/icon-awesome-github.svg';
 import dribbble from 'assets/icon-awesome-dribbble.svg';
 import linkedin from 'assets/icon-awesome-linkedin.svg'
 import dev from 'assets/icon-awesome-dev.svg';

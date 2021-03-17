@@ -1,9 +1,9 @@
 {
-  "BackArrow": {
-    "description": "Auto imported from /components/BackArrow.vue"
+  "BackButton": {
+    "description": "Auto imported from /components/BackButton.vue"
   },
-  "LazyBackArrow": {
-    "description": "Auto imported from /components/BackArrow.vue"
+  "LazyBackButton": {
+    "description": "Auto imported from /components/BackButton.vue"
   },
   "Card": {
     "description": "Auto imported from /components/Card.vue"
@@ -11,11 +11,11 @@
   "LazyCard": {
     "description": "Auto imported from /components/Card.vue"
   },
-  "CreditBadge": {
-    "description": "Auto imported from /components/CreditBadge.vue"
+  "CardList": {
+    "description": "Auto imported from /components/CardList.vue"
   },
-  "LazyCreditBadge": {
-    "description": "Auto imported from /components/CreditBadge.vue"
+  "LazyCardList": {
+    "description": "Auto imported from /components/CardList.vue"
   },
   "Pagination": {
     "description": "Auto imported from /components/Pagination.vue"
@@ -23,11 +23,17 @@
   "LazyPagination": {
     "description": "Auto imported from /components/Pagination.vue"
   },
-  "ProfileCard": {
-    "description": "Auto imported from /components/ProfileCard.vue"
+  "ProfileBadge": {
+    "description": "Auto imported from /components/ProfileBadge.vue"
   },
-  "LazyProfileCard": {
-    "description": "Auto imported from /components/ProfileCard.vue"
+  "LazyProfileBadge": {
+    "description": "Auto imported from /components/ProfileBadge.vue"
+  },
+  "ProfileModal": {
+    "description": "Auto imported from /components/ProfileModal.vue"
+  },
+  "LazyProfileModal": {
+    "description": "Auto imported from /components/ProfileModal.vue"
   },
   "SearchBar": {
     "description": "Auto imported from /components/SearchBar.vue"

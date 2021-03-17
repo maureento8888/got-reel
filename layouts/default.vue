@@ -1,9 +1,9 @@
 <template>
   <div>
     <div class="default-margin">
-      <CreditBadge />
+      <ProfileBadge />
       <Nuxt keep-alive />
-      <ProfileCard />
+      <ProfileModal />
     </div>
     <footer class="centered">
       <p>Built with 
@@ -15,13 +15,13 @@
 </template>
 
 <script>
-import CreditBadge from '@/components/CreditBadge.vue';
-import ProfileCard from '@/components/ProfileCard.vue';
+import ProfileBadge from '@/components/ProfileBadge.vue';
+import ProfileModal from '@/components/ProfileModal.vue';
 
 export default {
   components: {
-    CreditBadge,
-    ProfileCard
+    ProfileBadge,
+    ProfileModal
   }
 }
 </script>
@@ -30,7 +30,7 @@ export default {
 /* Global Styles */
 
 :root {
-  /* Mobile - Main styles */
+  /* Main styles */
   --g-primary-black: #333333;
   --g-primary-white: #ffffff;
   --g-secondary-grey: #707070;
@@ -38,9 +38,9 @@ export default {
   --g-bg: #f0f0f0;
   --g-disabled: #bfbfbf;
 
-  --g-m-header-txt: 1.25em; /* 20px */
-  --g-m-body-txt: 0.9375em; /* 15px */
-  --g-m-secondary-txt: 1.375em; /* 22px */
+  --g-header-txt: 1.25em; /* 20px */
+  --g-body-txt: 0.9375em; /* 15px */
+  --g-secondary-txt: 1.375em; /* 22px */
 }
 
 html {
@@ -70,7 +70,7 @@ html {
 }
 
 .default-margin {
-    padding: 1.5em 1.5em;
+    padding: 1.5em;
 }
 
 .centered {
@@ -93,7 +93,7 @@ footer {
 footer,
 footer a {
   color: var(--g-primary-white);
-  font-size: var(--g-m-body-txt);
+  font-size: var(--g-body-txt);
 }
 
 .privacy {

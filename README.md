@@ -1,6 +1,6 @@
 # Game of Thrones Character Reel
 
-Hey! Thanks for visiting this project! I built this project to test my understanding of using and working with APIs, Nuxt.js, dynamic pages, and handling dynamic data.
+I built this project to test my understanding of using and working with APIs, Nuxt.js, pagination, component-naming conventions, and handling dynamic data.
 
 Tech stack:
 
@@ -8,7 +8,6 @@ Tech stack:
 - [axios](https://axios.nuxtjs.org/)
 - HTML/CSS
 - [Netlify](https://www.netlify.com)
-- [Feather icons](https://feathericons.com/)
 - [Algolia](https://www.algolia.com/) (TBD)
 
 ## Build Setup

@@ -1,15 +1,9 @@
 <template>
 	<div>
-		<!-- <pre>{{ mountains.image }}</pre> -->
-		<div v-for="mountain in mountains" :key="mountain.id" class="card">
-			<img :src="mountain.image" :alt="mountain.title">
-			<div class="overlay">
-				<p class="age">AGE
-					<span>---</span>
-					<!-- prop {{ agify.age }} -->
-				</p>
-				<br>
-			<p class="name">{{ card.name || card.aliases.toString() }}</p> <!-- NuxtLink :to="mountain.slug" -->
+		<div class="card">
+			<img :src="img" alt="">
+			<div class="card-overlay">
+				<p class="card-name">{{ name.name || name.aliases.toString() }}</p>
 			</div>
 		</div>
 	</div>
@@ -17,23 +11,15 @@
 
 <script>
 	export default {
-
+		
 		data() {
 			return {
-				mountains: []
+				img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wonder_Lake_and_Denali.jpg/600px-Wonder_Lake_and_Denali.jpg"
 			}
 		},
 
-  		// GET mountain imgs from API
-		async fetch() {
-			const api = "https://api.nuxtjs.dev/mountains";
-			this.mountains = await fetch(api)
-			.then(res =>
-			res.json())
-		},
-
 		props: {
-			card: {
+			name: {
 				type: Object,
 				required: true
 			}
@@ -44,7 +30,7 @@
 <style scoped>
 .card,
 img,
-.overlay {
+.card-overlay {
 	border-radius: 15px;
 }
 
@@ -59,46 +45,33 @@ img,
   box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.2);
 }
 
+img,
+.card-overlay {
+	width: 100%;
+}
+
 img {
 	display: block;
-	width: 100%;
 	height: 12em;
 	
 	object-fit: cover;
 }
 
-.overlay {
+.card-overlay {
 	position: absolute;
 	top: 0;
 	right: 0;
 	bottom: 0;
 	left: 0;
-	width: 100%;
-	height: 100%;
-	padding: 2.25em 1em;
+	padding: 6em 1em;
 
-	background: rgba(0, 0, 0, 0.55);
+	background: rgba(0, 0, 0, 0.5);
 }
 
 /* Card Text */
-.age,
-.name {
+.card-name {
 	color: var(--g-primary-white);
-}
-
-.name {
 	text-align: right;
 }
-
-.age {
-	font-size: var(--g-m-body-txt);
-}
 /*  */
-
-/* Galaxy Fold media query */
-/* @media screen and (max-width: 280px) {
-	img {
-		height: 14em;
-	}
-} */
 </style>

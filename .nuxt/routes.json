@@ -1,12 +1,5 @@
 [
   {
-    "name": "CardList",
-    "path": "/CardList",
-    "component": "/Users/maureento/Desktop/Coding/projects/got-reel/pages/CardList.vue",
-    "chunkName": "pages/CardList",
-    "_name": "_c16e78aa"
-  },
-  {
     "name": "privacy",
     "path": "/privacy",
     "component": "/Users/maureento/Desktop/Coding/projects/got-reel/pages/privacy.vue",
@@ -19,12 +12,5 @@
     "component": "/Users/maureento/Desktop/Coding/projects/got-reel/pages/index.vue",
     "chunkName": "pages/index",
     "_name": "_21753f36"
-  },
-  {
-    "name": "slug",
-    "path": "/:slug",
-    "component": "/Users/maureento/Desktop/Coding/projects/got-reel/pages/_slug.vue",
-    "chunkName": "pages/_slug",
-    "_name": "_24e281c6"
   }
 ]
