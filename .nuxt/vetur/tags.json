@@ -5,23 +5,11 @@
   "LazyCharacterCard": {
     "description": "Auto imported from /components/CharacterCard.vue"
   },
-  "CharacterCardList": {
-    "description": "Auto imported from /components/CharacterCardList.vue"
-  },
-  "LazyCharacterCardList": {
-    "description": "Auto imported from /components/CharacterCardList.vue"
-  },
   "TheBackButton": {
     "description": "Auto imported from /components/TheBackButton.vue"
   },
   "LazyTheBackButton": {
     "description": "Auto imported from /components/TheBackButton.vue"
-  },
-  "ThePagination": {
-    "description": "Auto imported from /components/ThePagination.vue"
-  },
-  "LazyThePagination": {
-    "description": "Auto imported from /components/ThePagination.vue"
   },
   "TheProfileBadge": {
     "description": "Auto imported from /components/TheProfileBadge.vue"
@@ -34,11 +22,5 @@
   },
   "LazyTheProfileBadgeModal": {
     "description": "Auto imported from /components/TheProfileBadgeModal.vue"
-  },
-  "TheSearchBar": {
-    "description": "Auto imported from /components/TheSearchBar.vue"
-  },
-  "LazyTheSearchBar": {
-    "description": "Auto imported from /components/TheSearchBar.vue"
   }
 }

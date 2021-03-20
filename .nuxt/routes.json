@@ -1,16 +1,20 @@
 [
   {
+    "name": "CharacterCardList",
+    "path": "/CharacterCardList",
+    "component": "/Users/maureento/Desktop/Coding/projects/got-reel/pages/CharacterCardList.vue",
+    "chunkName": "pages/CharacterCardList"
+  },
+  {
     "name": "privacy",
     "path": "/privacy",
     "component": "/Users/maureento/Desktop/Coding/projects/got-reel/pages/privacy.vue",
-    "chunkName": "pages/privacy",
-    "_name": "_7beb7d5b"
+    "chunkName": "pages/privacy"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/maureento/Desktop/Coding/projects/got-reel/pages/index.vue",
-    "chunkName": "pages/index",
-    "_name": "_21753f36"
+    "chunkName": "pages/index"
   }
 ]

@@ -2,7 +2,7 @@
   <div>
     <div class="default-margin">
       <TheProfileBadge />
-      <Nuxt keep-alive />
+      <Nuxt keep-alive :key="$route.fullPath"/>
       <TheProfileBadgeModal />
     </div>
     <footer class="centered footer">
@@ -43,13 +43,11 @@ export default {
   --g-primary-black: #333333;
   --g-primary-white: #ffffff;
   --g-secondary-grey: #707070;
-  --g-border: #a0a0a0;
+  --g-border: #e2e2e2;
   --g-bg: #f0f0f0;
   --g-disabled: #bfbfbf;
 
   --g-header-txt: 1.25em; /* 20px */
-  --g-body-txt: 0.9375em; /* 15px */
-  --g-secondary-txt: 1.375em; /* 22px */
 }
 
 html {
@@ -79,12 +77,12 @@ html {
 }
 
 .default-margin {
-    padding: 1.5em;
+  padding: 1.5em;
 }
 
 .centered {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
 
 body {
@@ -102,11 +100,9 @@ body {
 .footer,
 .footer a {
   color: var(--g-primary-white);
-  font-size: var(--g-body-txt);
 }
 
 .privacy {
   margin-left: 3em;
 }
-/*  */
 </style>

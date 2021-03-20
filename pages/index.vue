@@ -1,25 +1,17 @@
 <template>
 	<body>
         <h1 class="centered cinzel-ff">Game of Thrones Character Reel</h1>
-        <!-- Insert SearchBar component -->
-        <TheSearchBar />
-        <!-- Insert CardList component -->
+        <!-- Insert CharacterCardList page -->
         <CharacterCardList />
-        <!-- Insert Pagination component-->
-        <ThePagination />
 	</body>
 </template>
 
 <script>
-import CharacterCardList from '@/components/CharacterCardList.vue';
-import TheSearchBar from '@/components/TheSearchBar.vue';
-import ThePagination from '@/components/ThePagination.vue';
+import CharacterCardList from '@/pages/CharacterCardList.vue';
 
 export default {
 	components: {
-		CharacterCardList,
-		TheSearchBar,
-        ThePagination
+		CharacterCardList
 	}
 }
 </script>
@@ -33,7 +25,7 @@ export default {
 }
 
 h1 {
-    padding-bottom: 1.5em;
+    padding-bottom: 3em;
 
     font-size: var(--g-header-txt);
     color: var(--g-primary-black);

@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<h1>Oops! It seems you've come across a missing page!</h1>
+		<h1 class="header-text">Oops! It seems you've come across a missing page!</h1>
 		<p>It's great to lose yourself in the land of mystery. Let 
 			<a
 				href="https://www.merriam-webster.com/dictionary/wanderlust"
@@ -41,6 +41,11 @@
 </template>
 
 <style scoped>
+.header-text {
+    font-size: var(--g-header-txt);
+    padding-bottom: 1em;
+}
+
 .nav-links {
 	display: flex;
 	flex-direction: column;

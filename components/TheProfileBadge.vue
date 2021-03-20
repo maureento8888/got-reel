@@ -14,7 +14,6 @@
 	display: block;
 	padding-bottom: 3em;
 
-	font-size: var(--g-body-txt);
 	text-align: right;
 }
 </style>
