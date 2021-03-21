@@ -23,6 +23,10 @@ export default {
 </script>
 
 <style scoped>
+h1 {
+	font-size: var(--g-header-txt);
+}
+
 h3 {
 	padding-bottom: 0.5em;
 }

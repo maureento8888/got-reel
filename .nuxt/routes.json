@@ -3,18 +3,21 @@
     "name": "CharacterCardList",
     "path": "/CharacterCardList",
     "component": "/Users/maureento/Desktop/Coding/projects/got-reel/pages/CharacterCardList.vue",
-    "chunkName": "pages/CharacterCardList"
+    "chunkName": "pages/CharacterCardList",
+    "_name": "_332e8aec"
   },
   {
     "name": "privacy",
     "path": "/privacy",
     "component": "/Users/maureento/Desktop/Coding/projects/got-reel/pages/privacy.vue",
-    "chunkName": "pages/privacy"
+    "chunkName": "pages/privacy",
+    "_name": "_7beb7d5b"
   },
   {
     "name": "index",
     "path": "/",
     "component": "/Users/maureento/Desktop/Coding/projects/got-reel/pages/index.vue",
-    "chunkName": "pages/index"
+    "chunkName": "pages/index",
+    "_name": "_21753f36"
   }
 ]

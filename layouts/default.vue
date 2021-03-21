@@ -47,7 +47,7 @@ export default {
   --g-bg: #f0f0f0;
   --g-disabled: #bfbfbf;
 
-  --g-header-txt: 1.25em; /* 20px */
+  --g-header-txt: 1.5em; /* 20px */
 }
 
 html {
@@ -60,7 +60,7 @@ html {
     'Helvetica Neue',
     Arial,
     sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;

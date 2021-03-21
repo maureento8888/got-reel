@@ -1,6 +1,6 @@
 <template>
   <div>
-
+    <h1 class="centered cinzel-ff">Game of Thrones Character Reel</h1>
     <section class="centered filter">
       <p class="centered filter-label">Filter:</p>
       <ul class="centered filter-list">
@@ -110,16 +110,29 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@800&display=swap');
+
+.cinzel-ff {
+    font-family: 'Cinzel', serif;
+    text-align: center;
+}
+
+h1 {
+    padding-bottom: 3em;
+
+    font-size: var(--g-header-txt);
+    color: var(--g-primary-black);
+}
 
 /* Transitions */
-.cards-enter-active,
+/* .cards-enter-active,
 .cards-leave-active {
   transition: opacity 0.5s;
 }
 .cards-enter,
 .cards-leave-active {
   opacity: 0;
-}
+} */
 /*  */
 
 .filter,
@@ -143,6 +156,7 @@ export default {
 	background: var(--g-primary-white);
 	border-radius: 100px;
   border: 0.5px solid var(--g-border);
+  font-size: 0.8em;
 
 	cursor: pointer;
 }
@@ -177,48 +191,4 @@ export default {
     max-width: 928px;
   }
 }
-
-
-
-/* 
-.filter-icon {
-	width: 1.4em;
-	height: auto;
-}
-
-.modal p + p {
-	display: flex;
-	flex-direction: column;
-	justify-content: space-evenly;
-	padding-top: 0.75em;
-}
-
-.filter {
-	display: flex;
-	position: relative;
-	align-items: center;
-}
-
-.modal {
-	position: absolute;
-	top: 4em;
-	right: -1em;
-	padding: 2em 1.5em;
-	width: 10em;
-	z-index: 2;
-
-	background: var(--g-primary-white);
-	border-radius: 20px;
-}
-
-.search-results {
-	display: flex;
-	flex-wrap: wrap;
-
-	list-style: none;
-}
-
-.search-results-items {
-	padding: 0.5em 0.5em;
-} */
 </style>
