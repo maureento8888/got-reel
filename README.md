@@ -76,7 +76,7 @@ And users would be able to:
 
 ## My process
 
-I first started on [Adobe Xd](https://www.adobe.com/ca/products/xd.html) for the app design and style guide. I worked on creating the app layout and making it responsive. After finishing touches, I moved on to developing the app with Nuxt.js and deploying it to Netlify.
+I first started on [Adobe Xd](https://www.adobe.com/ca/products/xd.html) for the app design and style guide. I worked on creating the app layout and making it responsive. After finishing touches, I moved on to developing the app with Nuxt.js and deploying it to [Netlify](https://www.netlify.com).
 
 I had initial issues with deployment on [Vercel](https://vercel.com) where I had issues with it not being able to find the app's entrypoint. In my nuxt.config.js, I had set my `router` config to
 `router: { base: '/got-reel/' }`
@@ -101,4 +101,5 @@ Note on design: The app was not meant to have lots of design overhead (animation
 
 ## Acknowledgements
 
+- [Vue Mastery](https://www.vuemastery.com) - for all things Vue.js 💚
 - Vue.js and Nuxt.js team - for amazing documentation 💚
