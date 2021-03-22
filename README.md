@@ -8,7 +8,6 @@ Tech stack:
 - [axios](https://axios.nuxtjs.org/)
 - HTML/CSS
 - [Netlify](https://www.netlify.com)
-- [Algolia](https://www.algolia.com/) (TBD)
 
 ## Build Setup
 
