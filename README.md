@@ -101,5 +101,5 @@ Note on design: The app was not meant to have lots of design overhead (animation
 
 ## Acknowledgements
 
-- [Vue Mastery](https://www.vuemastery.com) - for all things Vue.js 💚
+- [Vue Mastery](https://www.vuemastery.com) - for all things Vue.js, and the best Vue.js tutorials 💚
 - Vue.js and Nuxt.js team - for amazing documentation 💚
