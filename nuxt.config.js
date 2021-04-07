@@ -6,7 +6,7 @@ export default {
   target: 'static',
 
   generate: {
-    fallback: '200.html'
+    fallback: true
   },
   
   // Global page headers (https://go.nuxtjs.dev/config-head)
