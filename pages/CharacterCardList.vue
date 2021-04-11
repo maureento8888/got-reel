@@ -13,13 +13,16 @@
       </ul>
     </section>
 
-      <section class="centered list" role="list">
+      <section>
+        <span v-if="beforeCall" class="centered placeholder-block">Loading more characters...</span>
+        <transition-group name="cards" class="centered list" role="list">
           <CharacterCard
             v-for="(name, index) in names"
             :key="index"
             :name="name"
             role="listitem"
           />
+          </transition-group>
       </section>
 
     <section class="centered pagination-links">
@@ -61,7 +64,7 @@ export default {
       names: {},
       filteredNames: [],
       filteredAllegiances: [],
-      emptyResults: false
+      beforeCall: false
     }
   },
 
@@ -72,16 +75,15 @@ export default {
   },
 
   mounted() {
+    this.beforeCall = true;
     ApiService.getCharacterNames(10, this.page)
       .then(response => {
         this.names = response.data;
+        this.beforeCall = false;
       })
       .catch(error => {
         console.log(`An error ${error.response} occured`);
       })
-
-      // this.filteredNames = this.names.filter(name => name.includes())
-
   }
 }
 </script>
@@ -102,17 +104,26 @@ h1 {
 }
 
 /* Transitions */
-/* .cards-enter-active,
+.cards-enter-active,
 .cards-leave-active {
-  transition: opacity 0.5s;
+	transition: opacity 1s;
 }
+
 .cards-enter,
 .cards-leave-active {
-  opacity: 0;
-} */
+	opacity: 0;
+}
 /*  */
 
-.filter{
+.placeholder-block {
+  display: block;
+  height: 52.85vh; /* specifically "replace" cards grid pre-API response to prevent Content Layout Shift */
+
+  padding-top: 3em;
+  text-align: center;
+}
+
+.filter {
   align-items: center;
 }
 

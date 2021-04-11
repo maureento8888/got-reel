@@ -1,6 +1,8 @@
 <template>
 	<div class="card">
-		<img class="card-image" :src="img" alt="">
+		<transition name="home" mode="out-in">
+		<img class="card-image" width="2000" height="1500" :src="img" alt="">
+		</transition>
 		<div class="card-overlay">
 			<p class="card-name">{{ name.name || name.aliases.toString() }}</p>
 		</div>
