@@ -1,7 +1,7 @@
 <template>
 	<div class="card">
 		<transition name="home" mode="out-in">
-		<img class="card-image" width="2000" height="1500" :src="img" alt="">
+		<img class="card-image" width="130" height="170" :src="img" alt="">
 		</transition>
 		<div class="card-overlay">
 			<p class="card-name">{{ name.name || name.aliases.toString() }}</p>
