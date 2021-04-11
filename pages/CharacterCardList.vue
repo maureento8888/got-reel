@@ -13,11 +13,7 @@
       </ul>
     </section>
 
-    <transition name="cards" mode="out-in">
       <section class="centered list" role="list">
-          <p v-if="emptyResults">
-            Your search has 0 results
-          </p>
           <CharacterCard
             v-for="(name, index) in names"
             :key="index"
@@ -25,7 +21,6 @@
             role="listitem"
           />
       </section>
-    </transition>
 
     <section class="centered pagination-links">
       <NuxtLink
@@ -64,40 +59,19 @@ export default {
       prev: "<",
       options,
       names: {},
+      filteredNames: [],
+      filteredAllegiances: [],
       emptyResults: false
     }
   },
 
   computed: {
-    
-    // filteredNames() {
-    //   if ( !this.text ) {
-    //     return this.names;
-    //   }
-
-    //   return this.names.filter((name) => name.name.match(this.text) || name.aliases.toString().match(this.text))
-    // },
-   filterByAllegiance() {
-      console.log("Names: " );
-      // for ( allegiance of this.names ) {
-      //   if ( allegiance.allegiance.length ) {
-          
-      //   }
-      //   return allegiance.allegiance.sort();
-      // }
-    },
-
-    filterByName() {
-      console.log(this.names);
-      // return this.names.sort();
-    },
-
     page() {
       return parseInt(this.$route.query.page) || 1;
     }
   },
 
-  created() {
+  mounted() {
     ApiService.getCharacterNames(10, this.page)
       .then(response => {
         this.names = response.data;
@@ -105,6 +79,9 @@ export default {
       .catch(error => {
         console.log(`An error ${error.response} occured`);
       })
+
+      // this.filteredNames = this.names.filter(name => name.includes())
+
   }
 }
 </script>
@@ -135,13 +112,12 @@ h1 {
 } */
 /*  */
 
-.filter,
-.filter-list {
+.filter{
   align-items: center;
 }
 
-.filter-label {
-  padding: 0 1em;
+.filter-list {
+  padding: 0;
 }
 
 .filter-item {
@@ -156,7 +132,7 @@ h1 {
 	background: var(--g-primary-white);
 	border-radius: 100px;
   border: 0.5px solid var(--g-border);
-  font-size: 0.8em;
+  /* font-size: 1em; */
 
 	cursor: pointer;
 }
@@ -183,12 +159,20 @@ h1 {
 }
 /*  */
 
+/* Galaxy Fold viewport */
+@media screen and (max-width: 280px) {
+  .filter-label {
+    display: none;
+    visibility: none;
+  }
+}
+
 /* Desktop viewports */
 @media screen and (min-width: 280px) {
   .list {
     flex-wrap: wrap;
     margin: 0 auto;
-    max-width: 928px;
+    max-width: 800px;
   }
 }
 </style>

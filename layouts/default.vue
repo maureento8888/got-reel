@@ -10,7 +10,7 @@
         <a
           href="https://nuxtjs.org"
           target="_blank"
-          rel="noopener noreferral">
+          rel="noopener noreferrer">
           Nuxt.js
         </a>
         <NuxtLink

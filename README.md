@@ -80,7 +80,7 @@ I first started on [Adobe Xd](https://www.adobe.com/ca/products/xd.html) for the
 
 I had initial issues with deployment on [Vercel](https://vercel.com) where I had issues with it not being able to find the app's entrypoint. In my nuxt.config.js, I had set my `router` config to
 `router: { base: '/got-reel/' }`
-. I was reading articles on Nuxt.js deployments by other developers and went down the wrong path. I realized that was likely why my deployment to Vercel didn't work. I transfered to Netlify and after figuring out the `router` config issue, my deployment finally worked.
+. I was reading articles on Nuxt.js deployments by other developers and went down the wrong path. I realized that was likely why my deployment to Vercel didn't work. So, I took out the `router` config out, transferred to Netlify, and my deployment worked.
 
 ### Built with
 

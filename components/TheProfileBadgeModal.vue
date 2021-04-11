@@ -14,7 +14,7 @@
 				<a
 					href="https://github.com/maureento8888"
 					target="_blank"
-					rel="noopener noreferral">
+					rel="noopener noreferrer">
 					GitHub
 				</a>
 			or connect with me below!</p>
@@ -23,7 +23,7 @@
 				<a
 					href="https://github.com/maureento8888"
 					target="_blank"
-					rel="noopener noreferral"
+					rel="noopener noreferrer"
 					class="media">
 					<img
 						class="icon"
@@ -34,7 +34,7 @@
 				<a
 					href="https://dribbble.com/maureen_to"
 					target="_blank"
-					rel="noopener noreferral"
+					rel="noopener noreferrer"
 					class="media">
 					<img
 						class="icon"
@@ -45,7 +45,7 @@
 				<a
 					href="https://www.linkedin.com/in/maureento/"
 					target="_blank"
-					rel="noopener noreferral"
+					rel="noopener noreferrer"
 					class="media">
 					<img
 						class="icon"
@@ -56,7 +56,7 @@
 				<a
 					href="https://dev.to/maureento8888"
 					target="_blank"
-					rel="noopener noreferral"
+					rel="noopener noreferrer"
 					class="media">
 					<img
 						class="icon"
