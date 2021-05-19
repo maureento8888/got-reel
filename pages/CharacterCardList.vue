@@ -22,7 +22,7 @@
             :name="name"
             role="listitem"
           />
-          </transition-group>
+        </transition-group>
       </section>
 
     <section class="centered pagination-links">
@@ -117,7 +117,7 @@ h1 {
 
 .placeholder-block {
   display: block;
-  height: 52.85vh; /* specifically "replace" cards grid pre-API response to prevent Content Layout Shift */
+  height: 52.80vh; /* specifically "replace" cards grid pre-API response to mitigate Content Layout Shift */
 
   padding-top: 3em;
   text-align: center;
