@@ -61,10 +61,11 @@ export default {
       next: ">",
       prev: "<",
       options,
-      names: {},
-      filteredNames: [],
-      filteredAllegiances: [],
-      beforeCall: false
+      names: [],
+      beforeCall: false,
+      fkey: "Main language",
+      filterList: ["Names", "Allegiances"],
+      filter: "All",
     }
   },
 
