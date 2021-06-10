@@ -54,7 +54,7 @@ export default {
 
   image: {
     cloudinary: {
-      baseUrl: 'https://res.cloudinary.com/maureen-cloudinary/image/fetch/'
+      baseUrl: 'https://res.cloudinary.com/maureen-cloudinary/image/upload/'
     }
   },
 
