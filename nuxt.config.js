@@ -52,6 +52,10 @@ export default {
     '@nuxtjs/pwa'
   ],
 
+  image: {
+    domains: ['https://upload.wikimedia.org']
+  },
+
   // PWA configuration options (https://pwa.nuxtjs.org/icon)
   pwa: {},
 
