@@ -1,6 +1,6 @@
 <template>
 	<div class="card">
-		<nuxt-img class="card-image" width="200" height="100" :src="img" alt="" />
+		<nuxt-img class="card-image" width="600" height="600" :src="img" alt="" />
 		<div class="card-overlay">
 			<p class="card-name">{{ name.name || name.aliases.toString() }}</p>
 		</div>
