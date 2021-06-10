@@ -43,7 +43,7 @@
 <style scoped>
 .header-text {
     font-size: var(--g-header-txt);
-    padding-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 .nav-links {
