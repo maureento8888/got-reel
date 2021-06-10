@@ -91,7 +91,7 @@ body {
 
 /* Footer */
 .footer {
-  margin-top: 12em;
+  margin-top: 15.5em;
   padding: 1.875em 0;
   
   background: var(--g-primary-black);

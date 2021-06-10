@@ -24,7 +24,8 @@ export default {
 
 <style scoped>
 .arrow-icon {
-	width: 1.5em;
+	margin-bottom: 2em;
+	width: 2em;
 	height: auto;
 }
 </style>

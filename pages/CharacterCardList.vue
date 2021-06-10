@@ -118,7 +118,7 @@ h1 {
 
 .placeholder-block {
   display: block;
-  height: 52.80vh; /* specifically "replace" cards grid pre-API response to mitigate Content Layout Shift */
+  height: 52.80%; /* specifically "replace" cards grid pre-API response to mitigate Content Layout Shift */
 
   padding-top: 3em;
   text-align: center;

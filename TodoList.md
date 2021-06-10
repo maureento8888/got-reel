@@ -7,7 +7,7 @@
 - <s>Decrease filter modal padding</s>
 - Add filtering
 - <s>Add UX (loading states, error states)</s>
-- Optimize images with @nuxtjs/cloudinary
+- Optimize images with Nuxt Image
 - <s>Fix CardList.vue for Desktop viewports</s>
 - <s>Fix privacy page link</s>
 - <s>Fix footer position on Desktop viewports</s>

@@ -40,8 +40,13 @@ export default {
 
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
-    '@nuxtjs/pwa'
+    '@nuxtjs/pwa',
+    '@nuxt/image',
   ],
+
+  image: {
+    domains: ['https://upload.wikimedia.org']
+  },
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
@@ -52,34 +57,7 @@ export default {
   ],
 
   // PWA configuration options (https://pwa.nuxtjs.org/icon)
-  pwa: {
-    // meta: {
-    //   mobileApp: {
-    //     default: true,
-    //     meta: "mobile-web-app-capable"
-    //   },
-    //   manifest: {
-    //     short_name: "GoT Reel",
-    //     name: "Game of Thrones | Character Reel",
-    //     icons: [
-    //       {
-    //         "src": "/images/",
-    //         "type": "image/png",
-    //         "sizes": "192x192"
-    //       },
-    //       {
-    //         "src": "/images/",
-    //         "type": "image/png",
-    //         "sizes": "512x512"
-    //       },
-    //     ],
-    //     "display": "standalone",
-    //     "theme_color": "#002238",
-    //     "background_color": "",
-    //     "description": "List of Game of Thrones Characters",
-    //   }
-    // }
-  },
+  pwa: {},
 
   // Axios module configuration (https://go.nuxtjs.dev/config-axios)
   axios: {},
