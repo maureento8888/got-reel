@@ -53,7 +53,9 @@ export default {
   ],
 
   image: {
-    domains: ['https://upload.wikimedia.org']
+    cloudinary: {
+      baseUrl: 'https://res.cloudinary.com/maureen-cloudinary/image/fetch/'
+    }
   },
 
   // PWA configuration options (https://pwa.nuxtjs.org/icon)

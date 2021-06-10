@@ -1,6 +1,6 @@
 <template>
 	<div class="card">
-		<nuxt-img class="card-image" :src="img" alt="" />
+		<nuxt-img provider="cloudinary" class="card-image" width="347" height="462" :src="img" alt="" />
 		<div class="card-overlay">
 			<p class="card-name">{{ name.name || name.aliases.toString() }}</p>
 		</div>
@@ -17,7 +17,7 @@ export default {
 	},
 	data() {
 		return {
-			img: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wonder_Lake_and_Denali.jpg/600px-Wonder_Lake_and_Denali.jpg" // "https://res.cloudinary.com/maureen-cloudinary/image/upload/v1615941338/Wonder_Lake_and_Denali_upuktb.jpg"
+			img: 'https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Wonder_Lake_and_Denali.jpg/600px-Wonder_Lake_and_Denali.jpg'
 		}
 	}
 }
